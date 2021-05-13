@@ -27,10 +27,12 @@
 
 <body class="bg-dark">
 
+
+    <!-- codigo de menu -->
     <div id=nav>
         <nav class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top">
             <div class="container">
-                <!-- aqui agrego ellogo en la barra de menu:  -->
+               
               <a class="navbar-brand" href="#"><!-- aqui agrego ellogo en la barra de menu:  -->
               <a class="navbar-brand" href="#"> <img src="./assets/img/viajes.svg" alt="logo" width="100px" height="35px"></a>
               <h1 class="letra">Viajes Chile</h1></a>
@@ -38,9 +40,9 @@
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
+
                 <div class="collapse navbar-collapse" id="navbarScroll">
-                  <!-- ml-auto NO ME FUNCIONO, sino MS.auto para llevar menu hacia la izquierda
-                  del header -->
+                  
                     <ul class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 300px;">
                         <li class="nav-item">
                             <a class="nav-link" aria-current="page" href="#carousel">Inicio</a>
@@ -86,7 +88,7 @@
         </button>
     </div>
 
-    <!-- seccion de quienes como -->
+    <!-- seccion de quienes somos -->
     <div id="somos" class="container text-center my-5 text-white">
 
         <h2 class="display-3 font-weight-bold my-4">Quienes Somos</h2>
@@ -147,7 +149,7 @@
             <div class="card m-2 p-1 bg-info" style="width: 18rem;">
                 <img src="./assets/img/card1.jpg" class="card-img-top" alt="Carta 1">
                 <div class="card-body">
-                    <h5 class="card-title">Asado en la patagonia</h5>
+                    <h5 class="card-title">Lorem ipsum</h5>
                     <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                         Mollitia quod dolorum voluptates eos vel eveniet nemo recusandae omnis
                         dolorem incidunt molestias excepturi, ad non provident possimus odio nisi.
@@ -159,7 +161,7 @@
             <div class="card m-2 p-1 bg-info" style="width: 18rem;">
                 <img src="./assets/img/card2.jpg" class="card-img-top" alt="Carta 2">
                 <div class="card-body">
-                    <h5 class="card-title">Papas del fin del mundo</h5>
+                    <h5 class="card-title">luptates eos ve</h5>
                     <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                         Mollitia quod dolorum voluptates eos vel eveniet nemo recusandae omnis
                         dolorem incidunt molestias excepturi, ad non provident possimus odio nisi. Natus, labore.</p>
@@ -169,9 +171,9 @@
             <div class="card m-2 p-1 bg-info" style="width: 18rem;">
                 <img src="./assets/img/card3.jpg" class="card-img-top" alt="Carta 3">
                 <div class="card-body">
-                    <h5 class="card-title">Salmones de Alaska</h5>
+                    <h5 class="card-title">voluptates eos vel even</h5>
                     <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                        Mollitia quod dolorum voluptates eos vel eveniet nemo recusandae omnis
+                        Mollitia quod dolorum voluptates eos vel eveniet um voluptates eos vel eveniet nemo recusandae omnis
                         dolorem incidunt molestias excepturi, ad non provident possimus odio nisi. Natus, labore.</p>
                 </div>
             </div>
@@ -179,7 +181,7 @@
             <div class="card m-2 p-1 bg-info" style="width: 18rem;">
                 <img src="./assets/img/card4.jpg" class="card-img-top" alt="Carta 3">
                 <div class="card-body">
-                    <h5 class="card-title">Salmones de Alaska</h5>
+                    <h5 class="card-title">stias excepturi, ad non</h5>
                     <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                         Mollitia quod dolorum voluptates eos vel eveniet nemo recusandae omnis
                         dolorem incidunt molestias excepturi, ad non provident possimus odio nisi. Natus, labore.</p>
@@ -191,7 +193,7 @@
     </div>    
 
 
-    <!-- seccion de typeform -->
+    <!-- seccion de contacto con typeform -->
 
     <div id=contacto class="container text-center py-5">
 
@@ -202,13 +204,29 @@
 
         
         <!-- codigo copiado de typeform -->
-        <div class="typeform-widget" data-url="https://form.typeform.com/to/admWaFxf?typeform-medium=embed-snippet"
-         style="width: 100%; height: 500px;"></div> 
-        <script> (function() { var qs,js,q,s,d=document, 
-        gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, 
-        id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) 
-        { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0];
-         q.parentNode.insertBefore(js,q) } })() </script>
+        <div class="typeform-widget" 
+            data-url="https://form.typeform.com/to/admWaFxf?typeform-medium=embed-snippet"
+            style="width: 100%; height: 500px;"></div> 
+        <script> (function() 
+        { 
+            var qs,js,q,s,d=document, 
+            gi=d.getElementById, 
+            ce=d.createElement, 
+            gt=d.getElementsByTagName, 
+            id="typef_orm", 
+            b="https://embed.typeform.com/"; 
+            
+            if(!gi.call(d,id)) 
+            { 
+                js=ce.call(d,"script");
+                js.id=id;
+                js.src=b+"embed.js"; 
+                q=gt.call(d,"script")[0];
+                q.parentNode.insertBefore(js,q) 
+            } 
+        }
+        )
+        () </script>
 
     </div>
  
@@ -216,19 +234,17 @@
     <footer class="text-center text-white py-5 bg-info">
         <div class="row container m-auto">
             
-            <!-- seccion del futer de viajes chile -->
+            <!-- seccion del footer de viajes chile -->
             <div class="col-12 col-sm-6">
                 <h1>VIAJES CHILE</h1>
-
             </div>
 
-            <!-- seccion de iconos front-awason -->
-            <div id="iconos" class="col-12 col-sm-6 mt-4 text-center fs-1 text-white">
-                <a href="https://www.github.com"    target="_blank"><i class="fab fa-github-square"></i></a>
-                <a href="https://www.twitter.com"   target="_blank"><i class="fab fa-twitter-square"></i></a>
-                <a href="https://www.linkedin.com"  target="_blank"><i class="fab fa-linkedin"></i></a>
-                <a href="https://www.facebook.com"  target="_blank"><i class="fab fa-facebook-square"></i></a>
-
+            <!-- seccion de iconos front-awesome -->
+            <div class="col-12 col-sm-6 mt-4 text-center fs-1 text-white">
+                <a href="https://www.github.com" target="_blank"><i id="iconos" class="fab fa-github-square"></i></a>
+                <a href="https://www.twitter.com" target="_blank"><i id="iconos" class="fab fa-twitter-square"></i></a>
+                <a href="https://www.linkedin.com" target="_blank"><i id="iconos" class="fab fa-linkedin"></i></a>
+                <a href="https://www.facebook.com" target="_blank"><i id="iconos" class="fab fa-facebook-square"></i></a>
 
             </div>
 

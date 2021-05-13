@@ -3,8 +3,11 @@ body{
     
 }
 
+#iconos{
+    color: #FFffff; /* CSS link color */
+}
 
-/* desaparece seccion somos con pantalla bajo 800 */
+/* desaparece seccion "somos" con pantalla bajo 800 */
 @media screen and (max-width: 800px) {
     #somos{
         display: none;
