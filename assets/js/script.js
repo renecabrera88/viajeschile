@@ -9,7 +9,7 @@ $(document).ready(function(){
             {
             scrollTop: $(opcionMenu).offset().top,
         },
-        800
+        900
         );
 
     });
