@@ -1,3 +1,5 @@
+// mooth scroll
+
 $(document).ready(function(){
     $("a").click(function(event){
         // esta linea desactiva click por default
